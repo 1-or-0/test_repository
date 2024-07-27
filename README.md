@@ -29,6 +29,7 @@ The project involves creating a custom `printf` function in C, mimicking the sta
 Clone the repository:
 ```sh
 git clone https://github.com/quliyevislam/holbertonschool-printf.git
+```
 
 Compile the code with your program:
 
