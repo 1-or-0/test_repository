@@ -32,21 +32,27 @@ git clone https://github.com/quliyevislam/holbertonschool-printf.git
 ```
 
 Compile the code with your program:
-
+```sh
 gcc -Wall -Werror -Wextra -pedantic *.c -o your_program
+```
 
 ## Usage
 
 Include the header file in your C program:
 
+```sh
 #include "main.h"
+```
 
 Use the _printf function similar to the standard printf function:
 
+```sh
 _printf("Hello, %s!\n", "world");
+```
 
 Example Code
 
+```sh
 #include "main.h"int main(void)
 {
     _printf("Character: %c\n", 'H');
@@ -58,15 +64,16 @@ Example Code
     _printf("Hexadecimal: %x\n", 255);
     _printf("Pointer: %p\n", (void *)main);    return 0;
 }
+```
 
 ## Files
 
-README.md: This file.
-_printf.c: The main printf function implementation.
-_putchar.c: Helper function to write a character to stdout.
-main.h: Header file with function prototypes and macros.
-print_number.c: Functions to handle number printing.
-print_string.c: Functions to handle string printing.
+- README.md: This file.
+- _printf.c: The main printf function implementation.
+- _putchar.c: Helper function to write a character to stdout.
+- main.h: Header file with function prototypes and macros.
+- print_number.c: Functions to handle number printing.
+- print_string.c: Functions to handle string printing.
 
 ## Testing
 
@@ -74,6 +81,7 @@ To test the _printf function, you can use the provided test cases or write your 
 
 Example Test Code
 
+```sh
 #include <stdio.h>
 #include "main.h"
 
@@ -87,12 +95,14 @@ int main(void)
     len2 = printf("Integer: %d\n", 42);
     printf("Custom printf length: %d, Standard printf length: %d\n", len1, len2);    return 0;
 }
+```
 
 Compile and run the test code:
 
+```sh
 gcc -Wall -Werror -Wextra -pedantic *.c -o test_printf
 ./test_printf
-
+```
 Authors
 Islam Quliyev quliyevislam
 Orkhan Ibrahim OrkhanIbrahim357
