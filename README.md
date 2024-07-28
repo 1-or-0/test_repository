@@ -121,5 +121,5 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o test_printf
 ```
 Authors
 
-Orkhan Ibrahim [OrkhanIbrahim357](https://github.com/OrkhanIbrahim357)
-Islam Quliyev [quliyevislam](https://github.com/quliyevislam)
+- Orkhan Ibrahim [OrkhanIbrahim357](https://github.com/OrkhanIbrahim357)
+- Islam Quliyev [quliyevislam](https://github.com/quliyevislam)
